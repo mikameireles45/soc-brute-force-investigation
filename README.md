@@ -70,7 +70,17 @@ O endereço **127.0.0.1** indica que, neste laboratório, as tentativas foram or
 
 ### 🖼️ Evidências
 
-As capturas de tela da investigação estão disponíveis na pasta `evidencias`.
+#### Evento 4625 — detalhes da falha de autenticação
+
+A análise do evento permitiu identificar a conta alvo, o tipo de logon, os códigos de status e a origem da tentativa.
+
+![Detalhes do Event ID 4625](evidencias/detalhes-evento-4625.png)
+
+#### Múltiplas tentativas de autenticação
+
+Foram identificados cinco eventos 4625 em aproximadamente cinco segundos, demonstrando múltiplas falhas consecutivas de autenticação.
+
+![Eventos 4625](evidencias/eventos-4625.png)
 
 ### 📝 Conclusão
 
