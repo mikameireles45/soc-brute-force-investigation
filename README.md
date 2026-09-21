@@ -9,7 +9,7 @@ brute force.
 
 ## 🎯 Objetivos
 
-- Identificar tentativas de login malsucedidas;
+- Identificar tentativas de login mal-sucedidas;
 - Analisar eventos de segurança do Windows;
 - Investigar o Event ID 4625;
 - Identificar possíveis indicadores de comprometimento (IoCs);
